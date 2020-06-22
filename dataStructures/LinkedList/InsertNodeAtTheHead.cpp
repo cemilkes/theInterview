@@ -1,5 +1,5 @@
 
-// Print the Elements of Linked List
+// Insert new Node at the head of the linked list
 
 // You’re given the pointer to the head node of a linked list and an integer to add to the list. Create a new node with the given integer, insert this node at the head of the linked list and return the new head node. The head pointer given may be null meaning that the initial list is empty.
 
@@ -18,8 +18,8 @@
 // Algorithm:
 // 1- Check if the list is empty or not with given head node.
 // 2- if it is empty, then create a new node and return head.
-// 3- Otherwise create a new node.
-// 4- New node's next points to head and newNode is equal to head.
+// 3- Otherwise create a new node and point its next to the head.
+// 4- Newly added node becomes the new head of the list. 
 // 5- Return head
 
 ListNode* insertNodeAtHead(ListNode* head, int data) {
