@@ -19,7 +19,7 @@
 // 1- Check if the list is empty or not with given head node.
 // 2- While head is equal to Null, print the node value and go the next node.
 
-void printLinkedList(SinglyLinkedListNode* head) {
+void printLinkedList(ListNode* head) {
     
     if(head == NULL){ cout<< "Empty List";}
     while(head != NULL){
