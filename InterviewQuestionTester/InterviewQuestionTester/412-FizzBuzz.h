@@ -8,8 +8,8 @@
 
 #ifndef Header_h
 #define Header_h
-#include <vector>
-#include <string>
+#include "header.h"
+
 class Solution {
 public:
     vector<string> fizzBuzz(int n) {

@@ -8,10 +8,9 @@
 
 #ifndef _3_RomanToInteger_h
 #define _3_RomanToInteger_h
-#include <iostream>
-#include <string>
-using namespace std;
-class Solution_13 {
+#include "header.h"
+
+class RomanToInteger {
 public:
     int romanToInt(string s) {
         int sum = 0;

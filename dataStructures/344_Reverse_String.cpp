@@ -5,18 +5,6 @@
 //Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
 //You may assume all the characters consist of printable ascii characters.
 
-/**
- * Definiton for singly-linked list
- * class ListNode {
- *    int data;
- *    ListNode *next;
- *    ListNode(int x) {
-        data = x;
-        next = NULL;
- *    }
- * }
- */
-
 class Solution {
 public:
     void reverseString(vector<char>& s) {
