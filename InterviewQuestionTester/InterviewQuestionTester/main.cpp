@@ -9,12 +9,21 @@
 #include <iostream>
 using namespace std;
 #include "412-FizzBuzz.h"
-
+#include "13-RomanToInteger.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     
-    Solution solution;
+    Solution_13 solution;
+    int sum = solution.romanToInt("MCMXCIV");
+    cout << sum << endl;
+//    string s = "Cemil";
+//    cout << s[0] << endl;
+//    cout << s.size() << endl;
+//    if (s[0] == 'C') {
+//        cout << "Ce" << endl;
+//    }
+    
     
     /* //  MARK: - FIZZBUZZ
      *vector<string> v = solution.fizzBuzz(15);
