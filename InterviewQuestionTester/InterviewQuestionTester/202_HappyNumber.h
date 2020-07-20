@@ -31,7 +31,6 @@ Explanation:
 #define _02_HappyNumber_h
 #include "header.h"
 
-
 class HappyNumber {
 public:
     bool isHappy(int n) {
