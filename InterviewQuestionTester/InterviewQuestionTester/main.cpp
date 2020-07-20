@@ -11,7 +11,7 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
     
-    //  MARK: - Happy Number
+    //  MARK: - 202 Happy Number
     //HappyNumber hp;
     //hp.isHappy(11);
     vector<int> v;
@@ -34,28 +34,5 @@ int main(int argc, const char * argv[]) {
     }
     
     cout << subSum;
-    
-    //  MARK: - Roman To Integer
-    /*
-    RomanToInteger solution;
-    int sum = solution.romanToInt("MCMXCIV");
-    cout << sum << endl;
-     */
-
-    //    string s = "Cemil";
-//    cout << s[0] << endl;
-//    cout << s.size() << endl;
-//    if (s[0] == 'C') {
-//        cout << "Ce" << endl;
-//    }
-    
-    //  MARK: - FizzBuzz
-    /*
-     *vector<string> v = solution.fizzBuzz(15);
-     *  for(int i = 0; i < v.size(); i++) {
-     *   cout <<  v[i] << endl;
-     *  }
-     */
-
     return 0;
 }
