@@ -34,24 +34,20 @@ Explanation:
 class HappyNumber {
 public:
     bool isHappy(int n) {
-       
-        vector<int> v;
+
+        int sum = 0;
         
-        while (n) {
-            
-            int remainder = n % 10;
-            v.push_back(remainder);
-            
-        }
-        
-        for (int i = 0; i<v.size()-1; i++) {
-            cout << v[i] << " ";
-        }
-        
-        
+        while (sum == 1) {
+            while (n) { // while(n!=0)
+
+                   int remainder = n % 10;
+                   n /= 10;
+                   sum = sum + remainder * remainder;
+               }
+          }
         return true;
-        
     }
+    
 };
 
 #endif /* _02_HappyNumber_h */

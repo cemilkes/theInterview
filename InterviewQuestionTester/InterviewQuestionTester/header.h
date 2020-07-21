@@ -10,6 +10,7 @@
 #include <string>
 #include <vector>
 #include <stack>
+#include <cmath>
 using namespace std;
 
 #include "7_Reverse_Integer.h"

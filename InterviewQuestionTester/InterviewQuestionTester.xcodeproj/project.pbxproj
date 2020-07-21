@@ -28,6 +28,7 @@
 		839600D224C6498D007423CC /* 344_Reverse_String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 344_Reverse_String.h; sourceTree = "<group>"; };
 		839600D324C6499F007423CC /* 7_Reverse_Integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 7_Reverse_Integer.h; sourceTree = "<group>"; };
 		839600D424C64EB8007423CC /* 20_Valid_Parentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 20_Valid_Parentheses.h; sourceTree = "<group>"; };
+		839600D524C65B39007423CC /* 155_Min_Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 155_Min_Stack.h; sourceTree = "<group>"; };
 		83EBD52B24BF7FD9004D1791 /* InterviewQuestionTester */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InterviewQuestionTester; sourceTree = BUILT_PRODUCTS_DIR; };
 		83EBD52E24BF7FD9004D1791 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		83EBD53524BF7FE9004D1791 /* 412_FizzBuzz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 412_FizzBuzz.h; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 				839600D324C6499F007423CC /* 7_Reverse_Integer.h */,
 				83EBD53624BF85FD004D1791 /* 13_RomanToInteger.h */,
 				839600D424C64EB8007423CC /* 20_Valid_Parentheses.h */,
+				839600D524C65B39007423CC /* 155_Min_Stack.h */,
 				8369A7CA24C0C46700F4EDC5 /* 202_HappyNumber.h */,
 				839600D224C6498D007423CC /* 344_Reverse_String.h */,
 				83EBD53524BF7FE9004D1791 /* 412_FizzBuzz.h */,
