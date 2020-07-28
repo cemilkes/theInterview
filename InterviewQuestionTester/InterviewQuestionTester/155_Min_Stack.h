@@ -82,6 +82,24 @@ class Solution_155 {
      }
     
 };
+//  MARK: - Edge Cases
+/*
+ *  if the string is empty " "
+ *
+ *
+    
+//  MARK: - Algorithm
+    This question can be solved using a 2 Stack.
+    1- When push x into the first stack, check if second one is empty or them item in the second one less than x then push x into the second one as well.
+    2- For pop function, if first stack' top is equal to top of the second one(getMin()), then pop the top item of second stack - then pop the top element of the first one.
+    3- For top function, return the top of the first stack.
+    4- For getMin function, return the top of the second stack.
+
+
+//  MARK: - Time and Space Complexity
+    //Time Complexity is O(n) because we simply traverse all operations one at a time and the stack operations is O(1).
+    //Space Complexity is O(n)
+ */
 
 #endif /* _55_Min_Stack_h */
 

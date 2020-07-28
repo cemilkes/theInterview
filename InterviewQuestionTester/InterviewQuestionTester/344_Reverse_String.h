@@ -37,4 +37,17 @@ public:
     }
 };
 
+/*
+ string reverseString(string s) {
+     return { s.rbegin(), s.rend() };
+ 
+ or
+ 
+ // string ret;
+ for(int i = s.size()-1; i >= 0; --i)
+     ret += s[i];
+ return ret; //
+ }
+ */
+
 #endif /* _44_Reverse_String_h */
