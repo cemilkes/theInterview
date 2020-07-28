@@ -4,7 +4,6 @@
 //
 //  Created by Cemil Keş on 7/20/20.
 //  Copyright © 2020 CemilKes. All rights reserved.
-//
 
 // MARK: - 20: Valid Parentheses
 /* https://leetcode.com/problems/valid-parentheses/
@@ -44,9 +43,13 @@
 
 
  */
+
+//  MARK: - Solution
+
 #ifndef _0_Valid_Parentheses_h
 #define _0_Valid_Parentheses_h
 #include "header.h"
+
 class Solution_20{
 public:
      bool isValid(string s) {

@@ -12,11 +12,13 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     
     
-
-    //  MARK: - 202 Happy Number
-    HappyNumber hp;
-    cout << hp.isHappy(19) << endl;
+    Solution_682 solution;
+    
+    vector<string> ops = {"5","-2","4"};
    
+    cout << solution.calPoints(ops) << endl;
+
+    
     
     
     
