@@ -10,6 +10,7 @@
 #include <string>
 #include <vector>
 #include <stack>
+#include <queue>
 #include <cmath>
 using namespace std;
 
@@ -18,6 +19,8 @@ using namespace std;
 #include "13_RomanToInteger.h"
 #include "20_Valid_Parentheses.h"
 #include "202_HappyNumber.h"
+#include "225_Implement_Stack_using_Queue.h"
+#include "232_Implement_Queue_using_Stack.h"
 #include "344_Reverse_String.h"
 #include "412_FizzBuzz.h"
 #include "682_Baseball_Game.h"
