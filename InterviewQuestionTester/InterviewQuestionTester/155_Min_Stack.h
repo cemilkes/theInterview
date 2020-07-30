@@ -50,13 +50,13 @@ class Solution_155 {
     
     public:
      /** initialize your data structure here. */
-      stack<int> s;
-      stack<int> minS;
-      int min;
-     
-     MinStack() {
-        
-     }
+    stack<int> s;
+    stack<int> minS;
+    int min;
+    
+//    MinStack() {
+//      
+//     }
      
      void push(int x) {
     

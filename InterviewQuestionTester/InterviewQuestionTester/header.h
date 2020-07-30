@@ -16,6 +16,7 @@ using namespace std;
 
 #include "1_Two_Sum.h"
 #include "7_Reverse_Integer.h"
+#include "9_Palindrome_Number.h"
 #include "13_RomanToInteger.h"
 #include "20_Valid_Parentheses.h"
 #include "155_Min_Stack.h"

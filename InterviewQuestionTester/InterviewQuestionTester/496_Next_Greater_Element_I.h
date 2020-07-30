@@ -43,23 +43,10 @@
 
 class Solution_496{
 public:
-     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
-         
-         stack<int> s2;
-         
-         for (int i= 0; i < num1.size(); i++) {
-             int s2_top = s2.push(num[i]);
-             for (int j = 0; j < num2.size(); j++) {
-                 if (num1[i] > num2[j]) {
-                     
-                 }
-             }
-         }
-         
-         
-         
-         
-     }
+//     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
+//         
+//        
+//     }
 
 };
 

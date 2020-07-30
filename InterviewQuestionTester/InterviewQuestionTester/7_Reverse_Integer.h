@@ -44,7 +44,7 @@ public:
             
             int remainder = x % 10;
             x /= 10;
-            int answer = answer*10 + remainder;
+            answer = answer*10 + remainder;
 
         }
         
@@ -66,7 +66,6 @@ public:
  *  if the integer is bigger than 2^31 or less than -2^31
     
 //  MARK: - Algorithm
-    This question can be solved using a Stack data structure.
     1- till x is 0;
     2- get the remainder via divided x by 10(divisor)
     3- then x is equal to x divided by 10
