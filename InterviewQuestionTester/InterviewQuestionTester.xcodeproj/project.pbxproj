@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		8342633E24D1DF8C00F38691 /* 225_Implement_Stack_using_Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 225_Implement_Stack_using_Queue.h; sourceTree = "<group>"; };
 		8342633F24D1EF2100F38691 /* 232_Implement_Queue_using_Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 232_Implement_Queue_using_Stack.h; sourceTree = "<group>"; };
+		8342634424D3225200F38691 /* 933_Number_of_recent_Calls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 933_Number_of_recent_Calls.h; sourceTree = "<group>"; };
 		8369A7CA24C0C46700F4EDC5 /* 202_HappyNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 202_HappyNumber.h; sourceTree = "<group>"; };
 		8369A7CB24C0D1B700F4EDC5 /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
 		839600D224C6498D007423CC /* 344_Reverse_String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 344_Reverse_String.h; sourceTree = "<group>"; };
@@ -84,6 +85,7 @@
 				83EBD53524BF7FE9004D1791 /* 412_FizzBuzz.h */,
 				83DC420924CF413C003C695C /* 496_Next_Greater_Element_I.h */,
 				83D5985D24D0810A0005C034 /* 682_Baseball_Game.h */,
+				8342634424D3225200F38691 /* 933_Number_of_recent_Calls.h */,
 			);
 			path = InterviewQuestionTester;
 			sourceTree = "<group>";
