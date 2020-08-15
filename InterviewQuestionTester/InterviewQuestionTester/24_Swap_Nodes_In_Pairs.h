@@ -46,28 +46,19 @@ public:
 };
 //  MARK: - Edge Cases
 /*
- *  if the string is empty " "
- *  if the string has only one open bracket "{"
- *  if the string has only one closed bracket "}"
+ *  if the list is empty or has only one node
     
 //  MARK: - Algorithm
-    This question can be solved using a Stack data structure.
-    1- The idea is that when we see an open bracket, push it to stack.
-    2- If we see a closed bracket and it is not opposite bracket from the top of stack or stack is empty then the string is not valid.
-    3- Else pop the top. And continue to traverse the string
-    4- Check Edge Cases.
- */
+ 
+ 
 
 //  MARK: - Time and Space Complexity
-    //Time Complexity is O(n) because we simply traverse string one character at a time and the stack operations is O(1).
-    //Space Complexity is O(n) as we push all opening brackets onto the stack and in the worst case, we will end up pushing all the brackets onto the stack. e.g. ((((((((((.
 
-/*
- //  MARK: - Main Function
- string s = "{";
- Solution_20 solution;
- cout << solution.isValid(s) << endl;
- */
+
+
+ //  MARK: - Main
+
+*/
 
 
 #endif /* _4_Swap_Nodes_In_Pairs_h */
