@@ -19,6 +19,7 @@ using namespace std;
 #include "9_Palindrome_Number.h"
 #include "13_RomanToInteger.h"
 #include "20_Valid_Parentheses.h"
+#include "67_Add_Binary.h"
 #include "155_Min_Stack.h"
 #include "202_HappyNumber.h"
 #include "225_Implement_Stack_using_Queue.h"

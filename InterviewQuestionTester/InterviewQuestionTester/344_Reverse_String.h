@@ -50,4 +50,66 @@ public:
  }
  */
 
+/*
+ // O(N) space complexity
+ void printReverse(const char *str){
+     
+     if (!*str) {
+         return;
+     }
+     printReverse(str+1);
+     putchar(*str);
+     
+ }
+ // O(1) space complexity
+ void reverseString_Iterative(string& s){
+     
+     int left = 0;
+     size_t right = s.length() - 1;
+     
+     cout << "String is: " << s << endl;
+     
+     while (left < right) {
+         
+         char temp = s[left];
+         s[left] = s[right];
+         s[right] = temp;
+         
+         left++;
+         right--;
+     }
+     cout << "Reversed String is: " <<  s << endl;
+     //string s = "yek";
+        // reverseString_Iterative(s);
+        
+ }
+ // O(1) space complexity
+ void reverseString_Swap(vector<char> &v){
+     
+     for (int i = 0; i < v.size() / 2 ; i++) {
+         swap(v[i], v[v.size() - i - 1]);
+     }
+ }
+
+
+ // O(n) space comlexity.
+ void reverseString_Recursive(const string &str){
+     
+     size_t size = str.size();
+     if (size == 1) {
+         cout << str << endl;
+     }else{
+         cout << str[size - 1];
+         reverseString_Recursive(str.substr(0, size - 1));
+     }
+ }
+
+ */
+
+
+
+
+
+
+
 #endif /* _44_Reverse_String_h */
