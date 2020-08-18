@@ -32,6 +32,7 @@
 		8342634824D386A800F38691 /* 67_Add_Binary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 67_Add_Binary.h; sourceTree = "<group>"; };
 		8369A7CA24C0C46700F4EDC5 /* 202_HappyNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 202_HappyNumber.h; sourceTree = "<group>"; };
 		8369A7CB24C0D1B700F4EDC5 /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
+		8379BB0624EC3DF400EE8EB9 /* 704_Binary_Search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 704_Binary_Search.h; sourceTree = "<group>"; };
 		837D931824E874E6003E9347 /* 24_Swap_Nodes_In_Pairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 24_Swap_Nodes_In_Pairs.h; sourceTree = "<group>"; };
 		839600D224C6498D007423CC /* 344_Reverse_String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 344_Reverse_String.h; sourceTree = "<group>"; };
 		839600D324C6499F007423CC /* 7_Reverse_Integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 7_Reverse_Integer.h; sourceTree = "<group>"; };
@@ -95,6 +96,7 @@
 				83EBD53524BF7FE9004D1791 /* 412_FizzBuzz.h */,
 				83DC420924CF413C003C695C /* 496_Next_Greater_Element_I.h */,
 				83D5985D24D0810A0005C034 /* 682_Baseball_Game.h */,
+				8379BB0624EC3DF400EE8EB9 /* 704_Binary_Search.h */,
 				8342634424D3225200F38691 /* 933_Number_of_recent_Calls.h */,
 			);
 			path = InterviewQuestionTester;
