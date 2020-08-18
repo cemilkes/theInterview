@@ -82,6 +82,8 @@ class Solution_155 {
      }
     
 };
+
+#endif /* _55_Min_Stack_h */
 //  MARK: - Edge Cases
 /*
  *  if the string is empty " "
@@ -100,6 +102,4 @@ class Solution_155 {
     //Time Complexity is O(n) because we simply traverse all operations one at a time and the stack operations is O(1).
     //Space Complexity is O(n)
  */
-
-#endif /* _55_Min_Stack_h */
 

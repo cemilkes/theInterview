@@ -33,6 +33,7 @@
 		8369A7CA24C0C46700F4EDC5 /* 202_HappyNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 202_HappyNumber.h; sourceTree = "<group>"; };
 		8369A7CB24C0D1B700F4EDC5 /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
 		8379BB0624EC3DF400EE8EB9 /* 704_Binary_Search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 704_Binary_Search.h; sourceTree = "<group>"; };
+		8379BB0724EC41C100EE8EB9 /* 69_Sqrt(x).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "69_Sqrt(x).h"; sourceTree = "<group>"; };
 		837D931824E874E6003E9347 /* 24_Swap_Nodes_In_Pairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 24_Swap_Nodes_In_Pairs.h; sourceTree = "<group>"; };
 		839600D224C6498D007423CC /* 344_Reverse_String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 344_Reverse_String.h; sourceTree = "<group>"; };
 		839600D324C6499F007423CC /* 7_Reverse_Integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 7_Reverse_Integer.h; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 				839600D424C64EB8007423CC /* 20_Valid_Parentheses.h */,
 				837D931824E874E6003E9347 /* 24_Swap_Nodes_In_Pairs.h */,
 				8342634824D386A800F38691 /* 67_Add_Binary.h */,
+				8379BB0724EC41C100EE8EB9 /* 69_Sqrt(x).h */,
 				839600D524C65B39007423CC /* 155_Min_Stack.h */,
 				8369A7CA24C0C46700F4EDC5 /* 202_HappyNumber.h */,
 				8342633E24D1DF8C00F38691 /* 225_Implement_Stack_using_Queue.h */,

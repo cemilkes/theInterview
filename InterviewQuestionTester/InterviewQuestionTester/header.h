@@ -20,6 +20,7 @@ using namespace std;
 #include "13_RomanToInteger.h"
 #include "20_Valid_Parentheses.h"
 #include "67_Add_Binary.h"
+#include "69_Sqrt(x).h"
 #include "155_Min_Stack.h"
 #include "202_HappyNumber.h"
 #include "225_Implement_Stack_using_Queue.h"
@@ -31,4 +32,6 @@ using namespace std;
 #include "496_Next_Greater_Element_I.h"
 #include "682_Baseball_Game.h"
 #include "933_Number_of_recent_Calls.h"
+#include "704_Binary_Search.h"
+
 
