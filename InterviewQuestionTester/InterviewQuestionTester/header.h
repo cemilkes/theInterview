@@ -25,6 +25,7 @@ using namespace std;
 #include "202_HappyNumber.h"
 #include "225_Implement_Stack_using_Queue.h"
 #include "232_Implement_Queue_using_Stack.h"
+#include "278_Find_Bad_Version.h"
 #include "283_Move-Zeroes.h"
 #include "344_Reverse_String.h"
 #include "346_Moving_Average_from_Data_Stream.h"
