@@ -86,7 +86,6 @@ public:
         if (x < MIN_LIMIT || x > MAX_LIMIT) {
             return 0;
         }
-
            return answer;
     }
 
