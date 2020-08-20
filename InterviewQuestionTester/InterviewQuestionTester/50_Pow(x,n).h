@@ -66,31 +66,32 @@
 class Solution_50 {
 public:
     double myPow(double x, int n) {
+   /*
+        // int MIN_LIMIT = pow(-2,31);
+        // int MAX_LIMIT = pow(2,31);
         
-    // int MIN_LIMIT = pow(-2,31);
-    // int MAX_LIMIT = pow(2,31);
-        
-    double k;
-    if (n == 0) {
-        return 1;
-    }
-
-    if(n == 1){
-        return x;
-    }else{
-        if(n > 0){
-            k = x * myPow(x, n-1);
-            return k;
-        }else{
-            n = -n;
-            k = x * myPow(x, t-1);
-            return 1/k;
+        double k;
+        if (n == 0) {
+            return 1;
         }
-    }
         
-        // if (x < MIN_LIMIT || x > MAX_LIMIT) {
-        //     return 0;
-        // }
+        if(n == 1){
+            return x;
+        }else{
+            if(n > 0){
+                k = x * myPow(x, n-1);
+                return k;
+            }else{
+                n = -n;
+                k = x * myPow(x, n-1);
+                return 1/k;
+            }
+        }
+    */
+    if (n==0) return 1;
+    if (n==1) return x;
+    if (n==-1) return 1/x;
+    return myPow(x*x,n/2)*(n%2==0?1:n>0?x:1/x);
     }
 };
 
