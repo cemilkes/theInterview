@@ -25,7 +25,36 @@
  Explanation: The square root of 8 is 2.82842..., and since
               the decimal part is truncated, 2 is returned.
 
- */
+*/
+
+//  MARK: - Algorithm/Path || Explanation
+/*
+ *  There should be a number between 0 and x, let say k, such that k*k <= x
+ *  The easist way to find it by using Binary Search algorithm.
+ *  I find the mid number first by calculating (x(max) - 0(min) + 1) / 2 and.
+ *  if the mid * mid less than or equal to x then it means we need a mid number that bigger than mid. So the new min will be mid.
+ *  otherwise max will be mid - 1.
+ **/
+
+//  MARK: - Time and Space Complexity
+/*  Time Complexity is: O(logn)
+ *  Space Complexity is: O(1)
+ *
+ **/
+
+//  MARK: - Edge Cases
+/*  if the x is equal to 0,1, or 2.
+ *  or if the number is too large so i will use long instead of int type.
+ *  Question says it is non-negative int, so I dont need to check negative numbers.
+ **/
+
+//  MARK: - Main Function
+ /*
+  *
+  *
+  **/
+
+// Watching Link: https://www.youtube.com/watch?v=VYtEKhxKd1Q
 
 #ifndef _9_Sqrt_x__h
 #define _9_Sqrt_x__h
@@ -50,16 +79,3 @@ public:
 };
 
 #endif /* _9_Sqrt_x__h */
-//  MARK: - Edge Cases
-/*
- *  if the number is smaller than 2
- *
- *
-    
-//  MARK: - Algorithm
-    
-
-//  MARK: - Time and Space Complexity
-    //Time Complexity is O(logn)
-    //Space Complexity is O(1)
- */
