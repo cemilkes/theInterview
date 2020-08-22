@@ -25,7 +25,35 @@
  Output: ["h","a","n","n","a","H"]
  
  */
+//  MARK: - Algorithm/Path || Explanation
+/*
+ *  starting from beginning, swap first and last element, and pass next element at each time.
+ *  Let's say vector is {1, 2, 3, 7, 4, 6}, swap 1-6, then 2-4 and continue till there is no element to swap. (vector.size / 2)
+ **/
 
+//  MARK: - Time and Space Complexity
+/*
+ *  Time Complexity is O(N)- Have N/2 steps for swapping - O(N), swap operation itself O(1) -> Overall O(N)
+ *  Space Complexity is O(1) since we don't use extra memory.
+ **/
+
+//  MARK: - Edge Cases / Weird Test Cases
+/*
+ *  There is no element in vector or 1 or 2 element only.
+ *
+ **/
+
+//  MARK: - Main Function
+ /*
+  * vector<char> v = {'a', 'b', 'e', 'd', 'k'};
+  * vector<char> v1 = {'a', 'b'};
+  * vector<char> v2 = {'a'};
+  * reverseString(v);
+  * reverseString(v1);
+  * reverseString(v2);
+  **/
+
+// Watching Link:
 #ifndef _44_Reverse_String_h
 #define _44_Reverse_String_h
 class Solution_314 {
@@ -34,7 +62,22 @@ public:
          for(int i = 0; i < s.size() / 2; i++){
             swap(s[i], s[s.size() - i - 1]);
         }
+        //withRecursive
+        //reverseStringHelper(s, 0, s.size() - 1);
     }
+    
+    //Recursive Helper
+    void reverseStringHelper(vector<char>& v, int start, int end){
+        if (start >= end) {
+            return;
+        }else{
+            int temp = v[start];
+            v[start] = v[end];
+            v[end] = temp;
+            
+            reverseStringHelper(v, start+1, end-1);
+        }
+      }
 };
 
 /*
@@ -105,11 +148,5 @@ public:
  }
 
  */
-
-
-
-
-
-
 
 #endif /* _44_Reverse_String_h */

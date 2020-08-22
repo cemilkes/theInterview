@@ -47,7 +47,7 @@
  *
  **/
 
-//  MARK: - Edge Cases
+//  MARK: - Edge Cases/Test Cases
 /*  Array has only one or two element
  *  Array has three elements and not meet the condition
  *

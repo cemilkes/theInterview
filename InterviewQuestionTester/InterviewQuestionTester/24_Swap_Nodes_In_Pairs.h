@@ -15,19 +15,47 @@
 
  Given 1->2->3->4, you should return the list as 2->1->4->3.
  */
+//  MARK: - Algorithm/Path || Explanation
+/*
+ *
+ *
+ *
+ *
+ *
+ **/
+
+//  MARK: - Time and Space Complexity
+/*  Time Complexity is
+ *  Space Complexity is
+ *
+ **/
+
+//  MARK: - Edge Cases / Weird Test Cases
+/*
+ *
+ *
+ **/
+
+//  MARK: - Main Function
+ /*
+  *
+  *
+  **/
+
+// Watching Link:
 
 #ifndef _4_Swap_Nodes_In_Pairs_h
 #define _4_Swap_Nodes_In_Pairs_h
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
+
+ //Definition for singly-linked list.
+ struct ListNode {
+     int val;
+     ListNode *next;
+     ListNode() : val(0), next(nullptr) {}
+     ListNode(int x) : val(x), next(nullptr) {}
+     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ };
+ 
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
@@ -44,21 +72,5 @@ public:
 
     }
 };
-//  MARK: - Edge Cases
-/*
- *  if the list is empty or has only one node
-    
-//  MARK: - Algorithm
- 
- 
-
-//  MARK: - Time and Space Complexity
-
-
-
- //  MARK: - Main
-
-*/
-
 
 #endif /* _4_Swap_Nodes_In_Pairs_h */
