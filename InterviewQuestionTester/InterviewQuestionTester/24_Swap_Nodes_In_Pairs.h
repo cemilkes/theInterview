@@ -42,7 +42,9 @@
   *
   **/
 
-// Watching Link:
+// Watching Link: https://medium.com/@jimdaosui/swap-nodes-in-pairs-67b311fd02f7
+//https://www.geeksforgeeks.org/pairwise-swap-elements-of-a-given-linked-list-by-changing-links/?ref=rp
+//https://www.geeksforgeeks.org/pairwise-swap-adjacent-nodes-of-a-linked-list-by-changing-pointers-set-2/
 
 #ifndef _4_Swap_Nodes_In_Pairs_h
 #define _4_Swap_Nodes_In_Pairs_h
@@ -59,18 +61,50 @@
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
-     if(head == NULL || head->next == NULL){
-         return head;
-     }
-     ListNode* temp = head;
-        head = head->next;
-        temp->next = head->next;
-        head->next = temp;
+    
+        if (head == NULL || head->next == NULL) {
+            return head;
+        }
         
-        head->next->next = swapPairs(head->next->next);
+        ListNode* curr = head->next->next;
+        ListNode* prev= head;
+        head = head->next;
+        head->next= prev;
+        
+        while (curr != NULL && curr->next !=NULL) {
+            
+            prev->next = curr->next;
+            
+            prev = curr;
+           
+            ListNode* next = curr->next->next;
+            
+            curr->next->next = curr;
+            
+            curr = next;
+        }
+        
+        prev->next = curr;
+      
         return head;
-
     }
 };
-
+    
 #endif /* _4_Swap_Nodes_In_Pairs_h */
+
+
+/* Recursive
+ if(head == NULL || head->next == NULL){
+      return head;
+  }
+ 
+  ListNode* temp = head;
+     head = head->next;
+     temp->next = head->next;
+     head->next = temp;
+     
+     head->next->next = swapPairs(head->next->next);
+     return head;
+
+ }
+ */

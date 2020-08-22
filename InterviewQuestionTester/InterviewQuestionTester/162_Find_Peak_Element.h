@@ -65,7 +65,7 @@
 class Solution_162 {
 public:
     int findPeakElement(vector<int>& nums) {
-        
+        return 1;
     }
 };
 
