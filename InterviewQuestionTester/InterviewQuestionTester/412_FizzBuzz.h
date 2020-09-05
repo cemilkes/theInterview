@@ -41,7 +41,7 @@
 #define Header_h
 #include "header.h"
 
-class Solution {
+class Solution_412 {
 public:
     vector<string> fizzBuzz(int n) {
         vector<string> v;
