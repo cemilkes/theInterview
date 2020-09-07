@@ -33,6 +33,7 @@
 		25A806F824F1CE4E004E99C2 /* 234_Palindrome_Linked_List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 234_Palindrome_Linked_List.h; sourceTree = "<group>"; };
 		25EA52912502BFDA00A877EB /* 705_Design_HashSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 705_Design_HashSet.h; sourceTree = "<group>"; };
 		25EA52922502F48B00A877EB /* 217_Contains_Duplicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 217_Contains_Duplicate.h; sourceTree = "<group>"; };
+		25EA52932503137700A877EB /* 136_Single_Number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 136_Single_Number.h; sourceTree = "<group>"; };
 		8342633E24D1DF8C00F38691 /* 225_Implement_Stack_using_Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 225_Implement_Stack_using_Queue.h; sourceTree = "<group>"; };
 		8342633F24D1EF2100F38691 /* 232_Implement_Queue_using_Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 232_Implement_Queue_using_Stack.h; sourceTree = "<group>"; };
 		8342634424D3225200F38691 /* 933_Number_of_recent_Calls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 933_Number_of_recent_Calls.h; sourceTree = "<group>"; };
@@ -101,6 +102,7 @@
 				25A806EB24EF28B0004E99C2 /* 50_Pow(x,n).h */,
 				8342634824D386A800F38691 /* 67_Add_Binary.h */,
 				8379BB0724EC41C100EE8EB9 /* 69_Sqrt(x).h */,
+				25EA52932503137700A877EB /* 136_Single_Number.h */,
 				839600D524C65B39007423CC /* 155_Min_Stack.h */,
 				25A806E924EEF641004E99C2 /* 162_Find_Peak_Element.h */,
 				8369A7CA24C0C46700F4EDC5 /* 202_HappyNumber.h */,

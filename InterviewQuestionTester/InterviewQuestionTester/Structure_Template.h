@@ -27,7 +27,7 @@
  *
  **/
 
-//  MARK: - Edge Cases / Weird Test Cases
+//  MARK: - Edge Cases / Test Cases
 /*
  *
  *

@@ -14,6 +14,7 @@
 #include <cmath>
 #include <set>
 #include <unordered_set>
+#include <unordered_map>
 using namespace std;
 
 #include "1_Two_Sum.h"
@@ -25,6 +26,7 @@ using namespace std;
 #include "50_Pow(x,n).h"
 #include "67_Add_Binary.h"
 #include "69_Sqrt(x).h"
+#include "136_Single_Number.h"
 #include "155_Min_Stack.h"
 #include "162_Find_Peak_Element.h"
 #include "202_HappyNumber.h"
