@@ -37,6 +37,7 @@ using namespace std;
 #include "283_Move-Zeroes.h"
 #include "344_Reverse_String.h"
 #include "346_Moving_Average_from_Data_Stream.h"
+#include "349_Intersection_Of_Two_Arrays.h"
 #include "412_FizzBuzz.h"
 #include "496_Next_Greater_Element_I.h"
 #include "682_Baseball_Game.h"

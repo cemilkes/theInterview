@@ -24,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		250F9BC924F5C2BD0043BADE /* 509_Fibonacci_Number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 509_Fibonacci_Number.h; sourceTree = "<group>"; };
+		2530919E250ACABA00C49550 /* 349_Intersection_Of_Two_Arrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 349_Intersection_Of_Two_Arrays.h; sourceTree = "<group>"; };
 		25A806E324EEDCA0004E99C2 /* Structure_Template.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Structure_Template.h; sourceTree = "<group>"; };
 		25A806E624EEEED3004E99C2 /* 278_Find_Bad_Version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 278_Find_Bad_Version.h; sourceTree = "<group>"; };
 		25A806E924EEF641004E99C2 /* 162_Find_Peak_Element.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 162_Find_Peak_Element.h; sourceTree = "<group>"; };
@@ -115,6 +116,7 @@
 				8342634724D3570700F38691 /* 283_Move-Zeroes.h */,
 				839600D224C6498D007423CC /* 344_Reverse_String.h */,
 				8342634524D32A7400F38691 /* 346_Moving_Average_from_Data_Stream.h */,
+				2530919E250ACABA00C49550 /* 349_Intersection_Of_Two_Arrays.h */,
 				83EBD53524BF7FE9004D1791 /* 412_FizzBuzz.h */,
 				83DC420924CF413C003C695C /* 496_Next_Greater_Element_I.h */,
 				250F9BC924F5C2BD0043BADE /* 509_Fibonacci_Number.h */,
