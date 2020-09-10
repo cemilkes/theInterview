@@ -6,8 +6,8 @@
 //  Copyright © 2020 CemilKes. All rights reserved.
 
 // MARK: - #206: Reverse Linked List
-/* Link
-   https://leetcode.com/problems/reverse-linked-list/
+/* https://leetcode.com/problems/reverse-linked-list/
+ 
    Reverse a singly linked list.
 
    Example:
@@ -24,31 +24,39 @@
 //  MARK: - Algorithm/Path || Explanation
 /*
  *  Iteratively:
- *  
+ *  Create a temp node 'prev' and point it head node. And create other temp node named 'curr' and point it to prev->next.
+ *  Connect prev node's next to curr' next node. (prev->next = curr->next)
+ *  Point curr's next to prev' node. (curr->next = prev)
+ *  Now, curr should be assingned to head.  (head = curr)
+ *  And curr will be assigned by prev->next (curr = prev->next)
+ *
+ *  Recursively:
  *
  *
  *
  **/
 
 //  MARK: - Time and Space Complexity
-/*  Time Complexity is O(n) - since we traverse all member of linked list
+/*
+ *  Iteratively:
+ *  Time Complexity is O(n) - since we traverse all member of linked list
  *  Space Complexity is O(1) - only used 2 extra pointer.
  *
+ *  Recursively:
+ *  Time Complexity is O(n) - since we traverse all member of linked list
+ *  Space Complexity is O(1) - only used 2 extra pointer.
+ *
+ *
  **/
 
-//  MARK: - Edge Cases / Weird Test Cases
+//  MARK: - Edge Cases / Test Cases
 /*
- *
+ *  check if head or head->next is null
  *
  **/
 
-//  MARK: - Main Function
- /*
-  *
-  *
-  **/
+// Watch:
 
-// Watching Link:
 #ifndef _06_Reverse_Linked_List_h
 #define _06_Reverse_Linked_List_h
 
@@ -64,7 +72,7 @@ struct ListNode {
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-          if(head == NULL || head -> next == NULL){
+        if(head == NULL || head -> next == NULL){
             return head;
         }
         
