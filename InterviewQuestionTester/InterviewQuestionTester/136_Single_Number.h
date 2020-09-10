@@ -27,17 +27,22 @@
 
 //  MARK: - Algorithm/Path || Explanation
 /*
- *  Will use hashset.
- *
+ *  Brute-Force -> use hashset.
+ *  Better Approach -> use XOR (Tricky point is a XOR b XOR a = b , and useful XOR equations: a XOR 0 = a, a XOR a = 0)
  *
  *
  *
  **/
 
 //  MARK: - Time and Space Complexity
-/*  Time Complexity is
- *  Space Complexity is
+/*
+ *  Using hashset:
+ *      Time Complexity is O(n) since we go through all elements in the list.
+ *      Space Complexity is O(n) since we use extra space for hashset.
  *
+ *  Using XOR
+ *      Time Complexity is O(n) since we go through all elements in the list.
+ *      Space Complexity is O(1) since we don't use any extra space.
  **/
 
 //  MARK: - Edge Cases / Test Cases
@@ -54,7 +59,7 @@
   *
   **/
 
-// Watching Link:
+// Watch Link: https://www.youtube.com/watch?v=CvnnCZQY2A0
 
 #ifndef _36_Single_Number_h
 #define _36_Single_Number_h
@@ -63,16 +68,12 @@ class Solution_136{
 public:
     int singleNumber(vector<int>& nums) {
         
-        unordered_set<int> hashset;
-        vector<int>::iterator itr;
+        int x = 0;
         
-        for (itr = nums.begin(); itr != nums.end(); itr++) {
-            
+        for (int i = 0; i < nums.size(); i++) {
+            x = x ^ nums[i];
         }
-        
-        
-        
-        return 1;
+        return x;
     }
  
 };

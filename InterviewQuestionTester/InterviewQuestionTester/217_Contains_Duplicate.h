@@ -30,7 +30,7 @@
 
 //  MARK: - Algorithm/Path || Explanation
 /*
- *  Using hashset makes to find whether array has duplicate or not comfortable and efficient.
+ *  Using hashset makes to find whether array has duplicate or not, comfortable and efficient.
  *  Traverse all element in the list and add element to the set if it is not being added before.
  *  If it is added, then return true.
  *  Otherwise return false.

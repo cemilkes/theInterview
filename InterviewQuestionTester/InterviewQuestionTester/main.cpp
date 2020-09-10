@@ -10,11 +10,10 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
     
-    vector<int> arr = {1,2,3,3,3};
+    vector<int> arr = {1,1,2,3,2};
     
-    Solution_217 solution;
-    bool isContains = solution.containsDuplicate(arr);
-    cout << isContains << endl;
+    Solution_136 solution;
+    solution.singleNumber(arr);
     
     
     return 0;
