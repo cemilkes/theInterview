@@ -10,10 +10,12 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
     
-    vector<int> arr = {1,1,2,3,2};
+    vector<int> arr  = {1,2,2,1};
+    vector<int> arr2 = {2,2};
+
+    Solution_349 solution;
+    solution.intersection(arr, arr2);
     
-    Solution_136 solution;
-    solution.singleNumber(arr);
     
     
     return 0;
