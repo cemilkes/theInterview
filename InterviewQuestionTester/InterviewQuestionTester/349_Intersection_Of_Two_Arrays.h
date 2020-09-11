@@ -60,11 +60,15 @@
 
 //  MARK: - Main Function
  /*
+  *   vector<int> arr  = {1,2,2,1};
+  *   vector<int> arr2 = {2,2};
   *
+  *   Solution_349 solution;
+  *   solution.intersection(arr, arr2);
   *
   **/
 
-// Watch Link:
+// Watch Link: https://www.youtube.com/watch?v=dP8CAXKISX0
 
 #ifndef _49_Intersection_Of_Two_Arrays_h
 #define _49_Intersection_Of_Two_Arrays_h
