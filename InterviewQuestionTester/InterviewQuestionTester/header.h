@@ -43,6 +43,7 @@ using namespace std;
 #include "682_Baseball_Game.h"
 #include "704_Binary_Search.h"
 #include "705_Design_HashSet.h"
+#include "706_Design_HashMap.h"
 #include "933_Number_of_recent_Calls.h"
 
 

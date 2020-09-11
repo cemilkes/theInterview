@@ -72,8 +72,7 @@ public:
                 sum = sum + digits[i]*digits[i];
             }
             if (sum == 1) {
-                return true;
-            }
+                return true;              }
             
             if (set.find(sum) != set.end()) {
                 return false;
@@ -82,8 +81,7 @@ public:
             cout << "Sum is: " << sum << endl;
             set.insert(sum);
             
-            cout << "Set elements: " << endl;
-            for (int x : set) {
+            cout << "Set elements: " << endl;                               for (int x : set) {
                 cout <<  x << " ";
             }
             

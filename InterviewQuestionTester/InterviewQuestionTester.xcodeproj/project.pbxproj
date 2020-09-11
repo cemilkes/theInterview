@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		250F9BC924F5C2BD0043BADE /* 509_Fibonacci_Number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 509_Fibonacci_Number.h; sourceTree = "<group>"; };
 		2530919E250ACABA00C49550 /* 349_Intersection_Of_Two_Arrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 349_Intersection_Of_Two_Arrays.h; sourceTree = "<group>"; };
+		25A42773250BE5A700072F0D /* 706_Design_HashMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 706_Design_HashMap.h; sourceTree = "<group>"; };
 		25A806E324EEDCA0004E99C2 /* Structure_Template.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Structure_Template.h; sourceTree = "<group>"; };
 		25A806E624EEEED3004E99C2 /* 278_Find_Bad_Version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 278_Find_Bad_Version.h; sourceTree = "<group>"; };
 		25A806E924EEF641004E99C2 /* 162_Find_Peak_Element.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 162_Find_Peak_Element.h; sourceTree = "<group>"; };
@@ -123,6 +124,7 @@
 				83D5985D24D0810A0005C034 /* 682_Baseball_Game.h */,
 				8379BB0624EC3DF400EE8EB9 /* 704_Binary_Search.h */,
 				25EA52912502BFDA00A877EB /* 705_Design_HashSet.h */,
+				25A42773250BE5A700072F0D /* 706_Design_HashMap.h */,
 				8342634424D3225200F38691 /* 933_Number_of_recent_Calls.h */,
 			);
 			path = InterviewQuestionTester;
