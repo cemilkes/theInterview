@@ -71,12 +71,12 @@
 
 //  MARK: - Main Function
  /*
-  *
+  * isValid("if (a(4) > 9) { foo(a(2)); }")
+  * isValid("while (true) foo(); }{ ()")
   *
   **/
 
-// Watch Link:
-
+// Watch Link: https://www.youtube.com/watch?v=f8Jq8Ibg2Ys&ab_channel=KevinNaughtonJr.
 
 //  MARK: - Solution
 
