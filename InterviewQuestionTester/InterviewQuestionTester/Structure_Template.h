@@ -41,6 +41,8 @@
 
 // Watch Link:
 
+//  MARK: - Solution
+
 #ifndef Structure_Template_h
 #define Structure_Template_h
 
