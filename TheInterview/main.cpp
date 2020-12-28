@@ -25,7 +25,7 @@ int main(int argc, const char * argv[]) {
     
     int x;
     vector<int> vec = {1, 1, 2, 9, 9};
-    x = solution.singleNumber_HashTable(vec);
+    x = solution.singleNumber_XOR(vec);
     cout << x << endl;
     
     
