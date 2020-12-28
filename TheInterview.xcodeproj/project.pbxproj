@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		25295E86259A5E5A0005D32C /* TheInterview */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheInterview; sourceTree = BUILT_PRODUCTS_DIR; };
 		25295E89259A5E5A0005D32C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		25295E93259A5F8C0005D32C /* 238_Product_Of_Array_Except_Self.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 238_Product_Of_Array_Except_Self.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +59,25 @@
 			isa = PBXGroup;
 			children = (
 				25295E89259A5E5A0005D32C /* main.cpp */,
+				25295E92259A5F1F0005D32C /* Leetcode */,
 			);
 			path = TheInterview;
+			sourceTree = "<group>";
+		};
+		25295E92259A5F1F0005D32C /* Leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				25295E94259A60830005D32C /* Algorithms */,
+				25295E93259A5F8C0005D32C /* 238_Product_Of_Array_Except_Self.h */,
+			);
+			path = Leetcode;
+			sourceTree = "<group>";
+		};
+		25295E94259A60830005D32C /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Algorithms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
