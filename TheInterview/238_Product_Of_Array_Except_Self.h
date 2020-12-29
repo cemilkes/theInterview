@@ -8,7 +8,17 @@
 #ifndef _38_Product_Of_Array_Except_Self_h
 #define _38_Product_Of_Array_Except_Self_h
 
-
+class Solution_238 {
+    
+public:
+    
+    
+    
+    
+    
+    
+    
+};
 
 
 #endif /* _38_Product_Of_Array_Except_Self_h */

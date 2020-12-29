@@ -42,9 +42,7 @@ class Solution_88 {
         Better Approach w/ O(1) Space Complexity -> Using three pointers and go backwards in the arrays.
      
      */
-    
-    
-    
+
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
                 

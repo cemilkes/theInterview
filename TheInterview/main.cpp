@@ -13,6 +13,7 @@
 #include <set>
 #include <unordered_set>
 #include "Helper.h"
+#include "1_Two_Sum.h"
 #include "88_Merge_Sorted_Arrays.h"
 #include "136_Single_Number.h"
 #include "238_Product_Of_Array_Except_Self.h"
@@ -20,14 +21,12 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    
-    vector<int> v1 = {1,3,8,9,45};
-    vector<int> v2 = {1,2,7,11,55};
+    Solution_1 solution;
     Helper helper;
-    Solution_88 solution;
-    
-    solution.merge(v1, 10, v2, 5);
-    helper.print_Vector(v1);
+    vector<int> vec = {1,2,4,5,7,8};
+    vector<int> vec2;
+    vec2 = solution.twoSum(vec, 13);
+    helper.print_Vector(vec2);
     
     
     return 0;
