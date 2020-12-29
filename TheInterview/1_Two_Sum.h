@@ -26,3 +26,14 @@ public:
 };
 
 #endif /* __Two_Sum_h */
+
+/*
+ Solution_1 solution;
+ Helper helper;
+ vector<int> vec = {1,2,4,5,7,8};
+ vector<int> vec2;
+ vec2 = solution.twoSum(vec, 13);
+ helper.print_Vector(vec2);
+ 
+ 
+ */

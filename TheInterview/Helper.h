@@ -8,10 +8,7 @@
 #ifndef Helper_h
 #define Helper_h
 using namespace std;
-class Helper{
 
-public:
-    
     void print_Unordered_Map(unordered_map< int , int > &map){
         unordered_map<int, int>::iterator itr;
         
@@ -32,9 +29,7 @@ public:
         }
     }
     
-    
-    
-    
-};
+//    vector<int> vec;
+//    vector<int> vec1 = {1,2,3,4,5};
 
 #endif /* Helper_h */

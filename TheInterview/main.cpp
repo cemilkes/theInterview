@@ -21,13 +21,13 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    Solution_1 solution;
-    Helper helper;
-    vector<int> vec = {1,2,4,5,7,8};
-    vector<int> vec2;
-    vec2 = solution.twoSum(vec, 13);
-    helper.print_Vector(vec2);
     
+    
+    vector<int> vec;
+    vector<int> vec1 = {1,2,3,4,5};
+    Solution_238 solution;
+    vec = solution.productExceptSelf(vec1);
+    print_Vector(vec);
     
     return 0;
 }
