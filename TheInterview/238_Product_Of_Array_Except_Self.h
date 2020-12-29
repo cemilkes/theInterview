@@ -8,7 +8,6 @@
 #ifndef _38_Product_Of_Array_Except_Self_h
 #define _38_Product_Of_Array_Except_Self_h
 
-// MARK: - #
 
 
 

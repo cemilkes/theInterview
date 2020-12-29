@@ -26,6 +26,15 @@ public:
         }
     }
     
+    void print_Vector(vector<int> &vec){
+        for (int i = 0; i< vec.size(); i++) {
+            cout << vec[i] << " " << endl;
+        }
+    }
+    
+    
+    
+    
 };
 
 #endif /* Helper_h */

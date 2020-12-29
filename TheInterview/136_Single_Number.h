@@ -51,6 +51,7 @@ public:
      
         Better Approach with Space comlexity O(1) -> Using XOR. (Tricky point is "a XOR b XOR a => b" , and useful XOR equations: a XOR 0 = a, a XOR a = 0)
         Time complexity is O(n) but since we don't use extra space, Space Compexity is O(1) which is better than O(n).
+     
     **/
     
     int singleNumber_XOR(vector<int>& nums){
@@ -60,9 +61,17 @@ public:
         }
         return  x;
     }
-    
-    
 };
 
-
 #endif /* _36_Single_Number_h */
+
+/* MAIN
+ Helper helper;
+ Solution_136 solution;
+ 
+ int x;
+ vector<int> vec = {1, 1, 2, 9, 9};
+ x = solution.singleNumber_XOR(vec);
+ cout << x << endl;
+ 
+ */
